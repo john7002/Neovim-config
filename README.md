@@ -53,5 +53,5 @@ gnome-tweaks
 <img src="caplocks.png"
      style="width:300px;height=400px" />
 
-## 4. Vim and Tmux shortkeys
+## 4. Vim shortkeys
 Can be found [here](shortkeys.md)
