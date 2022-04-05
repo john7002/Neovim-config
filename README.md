@@ -21,7 +21,7 @@ Once is done, open nvim and install pluginsby typing
 
 Finally, restart nvim and check if everything is corectly installed
 
-### 3.1 Autocomplete plugin
+### 1.1 Autocomplete plugin
 We are using LSP mode for autocompletion. One needs to install specific language support.
 
 To do this, in nvim type:
@@ -29,6 +29,9 @@ To do this, in nvim type:
 :LspInstallInfo
 ```
 select the language support you want and install it by typing 'i'.
+
+### 2.1 Code formatting plugin
+We are using null-ls plugin. This may need to install additionnal code formater, have a look [here](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) .
 
 
 ## 3. Switch Caplocks button to ESC
