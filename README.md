@@ -33,6 +33,19 @@ select the language support you want and install it by typing 'i'.
 ### 2.1 Code formatting plugin
 We are using null-ls plugin. This may need to install additionnal code formater, have a look [here](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) .
 
+### 2.2 Telescope
+Telescope needs ripgrep to find pattern in files. 
+
+Installation in Ubuntu:
+```
+sudo apt-get install ripgrep
+```
+Installation on Macos
+
+```
+brew install ripgrep
+```
+
 
 ## 3. Switch Caplocks button to ESC
 
