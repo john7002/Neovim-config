@@ -80,15 +80,15 @@
 | find a file(need FZF plugin)| <span style="color:blue">Ctrl-P </span>|
 | Open a file| <span style="color:blue">:e <filenam> </span>|
 | swith to another tab| <span style="color:blue">gt or gT </span>|
-  
 
-## My Tmux main commands
+  
+Using nvim-tree plugin:
 | Description      | Command |
 | ----------- | ----------- |
-| create a new window| <span style="color:blue">Ctrl-b c</span>|
-| navigate between windows| <span style="color:blue">Ctrl-b n</span>|
-| rename window| <span style="color:blue">Ctrl-b ,</span>|
-| slide window vertically| <span style="color:blue">Ctrl-b ,</span>|
-| Resize pannel | <span style="color:blue">Ctrl-b Alt left_arrow</span>|
-| switch between pannels | <span style="color:blue">Ctrl-b o</span>|
-| display pannels in fullscreen | <span style="color:blue">Ctrl-b z</span>|
+| Create a file,folder| <span style="color:blue">a (for folder add '/' at the end </span>|
+| rename file| <span style="color:blue">r </span>|
+| delete file| <span style="color:blue">d </span>|
+| cut file | <span style="color:blue">x </span>|  
+| copy file | <span style="color:blue">c </span>|
+| paste file | <span style="color:blue">p</span>| 
+  
