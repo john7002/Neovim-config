@@ -29,6 +29,7 @@ return require('packer').startup(function()
   --code formatting
   use 'nvim-lua/plenary.nvim'
   use 'jose-elias-alvarez/null-ls.nvim'
+  use "lukas-reineke/indent-blankline.nvim"
 
   --snippets
   use 'L3MON4D3/LuaSnip'
