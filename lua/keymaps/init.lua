@@ -28,6 +28,11 @@ nmap('<C-Up>', '<cmd>:horizontal resize +3<cr>')
 vmap('<', '<gv')
 vmap('>', '>gv')
 
+-- telescope
+nmap('<leader>f', '<cmd>:Telescope find_files<cr>')
+nmap('<leader>r', '<cmd>:Telescope live_grep<cr>')
+
+
 
 nmap('<C-b>','<cmd>:NvimTreeToggle<cr>')
 nmap('<C-a>', '<cmd>:ToggleTerm<cr>')
