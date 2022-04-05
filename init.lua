@@ -8,3 +8,4 @@ require('toggleterm-config')
 require('lsp')
 require('cmp-config')
 require('monokai').setup{}
+require('null-ls-config')
