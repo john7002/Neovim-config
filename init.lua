@@ -1,12 +1,11 @@
 require('plugins')
 require('settings')
-require('treesitter-config')
+require('monokai').setup {}
 require('lualine-config')
-require('keymaps')
 require('nvim-tree-config')
 require('toggleterm-config')
+require('keymaps')
 require('lsp')
 require('cmp-config')
-require('monokai').setup{}
 require('null-ls-config')
 require('telescope-config')
