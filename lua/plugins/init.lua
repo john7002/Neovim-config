@@ -2,7 +2,7 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  use 'nvim-treesitter/nvim-treesitter'
+  -- use 'nvim-treesitter/nvim-treesitter'
   use 'tanvirtin/monokai.nvim'
 
   use {
@@ -35,7 +35,9 @@ return require('packer').startup(function()
   use 'L3MON4D3/LuaSnip'
   use 'rafamadriz/friendly-snippets'
 
-
+  use("nvim-telescope/telescope.nvim")
+		
+		
   --comment
   use {
     'numToStr/Comment.nvim',
