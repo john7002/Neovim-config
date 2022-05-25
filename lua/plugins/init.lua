@@ -36,7 +36,9 @@ return require('packer').startup(function()
   use 'rafamadriz/friendly-snippets'
 
   use("nvim-telescope/telescope.nvim")
+	
 		
+  use("mg979/vim-visual-multi")
 		
   --comment
   use {
