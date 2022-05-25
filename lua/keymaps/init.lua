@@ -16,6 +16,7 @@ function vmap(shortcut, command)
     map('v', shortcut, command)
 end
 
+vim.g.mapleader = ' '
 
 nmap('<C-Left>', '<cmd>:vertical resize +3<cr>')
 nmap('<C-Right>', '<cmd>:vertical resize -3<cr>')
