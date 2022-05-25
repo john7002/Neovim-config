@@ -68,6 +68,9 @@ gnome-tweaks
 
 <img src="caplocks.png"
      style="width:300px;height=400px" />
+     
+     
+ * In Preference -> Keyboard . Remove shortkey using C^-Up and C^-Down
 
 ## 4. Vim shortkeys
 Can be found [here](shortkeys.md)
