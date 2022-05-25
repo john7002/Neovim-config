@@ -49,6 +49,7 @@
 | start selecting | <span style="color:blue">v </span>|
 | select current line| <span style="color:blue">Shift - v </span>|
 | paste current selection| <span style="color:blue">p </span>|
+| multiple cursor (with plugin) | <span style="color:blue">space-j or space-k </span>|
 | multiple cursor| <span style="color:blue">Ctrl - v </span>|
 | multiple insertion| <span style="color:blue">I </span>|
 
