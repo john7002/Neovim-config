@@ -29,6 +29,9 @@ nmap('<C-Up>', '<cmd>:horizontal resize +3<cr>')
 vmap('<', '<gv')
 vmap('>', '>gv')
 
+-- disable change case in visual mode
+vmap('u','<Nop>')
+
 -- telescope
 nmap('<leader>f', '<cmd>:Telescope find_files<cr>')
 nmap('<leader>r', '<cmd>:Telescope live_grep<cr>')
