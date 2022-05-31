@@ -2,6 +2,7 @@
 
 
 ## 1. Install plugins manager
+Install neovim (at least version 0.7)
 Use of [packer](https://github.com/wbthomason/packer.nvim) plugin management.
 
 Installation:
@@ -13,7 +14,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 Create a ~/.config/nvim folder (if you don't have one already) and copy init.lua and the folder lua.
 
-Once is done, open nvim and install pluginsby typing
+Once is done, open nvim and install plugins by typing
 
 ```
 :PackerSync
@@ -24,11 +25,25 @@ Finally, restart nvim and check if everything is corectly installed
 ### 1.1 Autocomplete plugin
 We are using LSP mode for autocompletion. One needs to install specific language support.
 
+First install nodejs:
+On Linux:
+```
+sudo apt install nodejs npm
+```
+On MacOs:
+```
+brew install node
+```
+
 To do this, in nvim type:
 ```
 :LspInstallInfo
 ```
-select the language support you want and install it by typing 'i'.
+select the language support you want and install it by typing 'i'. 
+Used so far:
+- Pyright for Python
+- clangd for C,C++
+- tsserver for javascript
 
 ### 2.1 Code formatting plugin
 We are using null-ls plugin. This may need to install additionnal code formater, have a look [here](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) .
@@ -60,8 +75,6 @@ gnome-tweaks
 ```
 * go to “Keyboard & Mouse” tab, and click on “Additional Layout Options”
 * Inside “Caps Lock Behavior” choose “Make Caps Lock an additional Esc”
-* Open VS Code settings via File -> Preferences -> Settings. And type “dispatch”
-* Then, change from “code” to “keyCode”
 
 ### 3.2 On MACOs
 * Got to Preference -> Keyboard -> "Modification keys" and select "Escape" in "Caplocks Key".
