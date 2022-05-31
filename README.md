@@ -35,7 +35,7 @@ On MacOs:
 brew install node
 ```
 
-To do this, in nvim type:
+Then in nvim type the following command to choose specific language server to install:
 ```
 :LspInstallInfo
 ```
