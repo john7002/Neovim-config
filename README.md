@@ -85,5 +85,11 @@ gnome-tweaks
      
  * In Preference -> Keyboard . Remove shortkey using C^-Up and C^-Down
 
-## 4. Vim shortkeys
+
+## 4 Use Font incons
+Font Icons are needed to display text correctly.
+Install [Hack Nerd-Fonts](https://www.nerdfonts.com/font-downloads)
+In Ubuntu terminal: Preferences -> Unnamed ->  custom fonts ("Hack Nerd Font Mono Regular)
+
+## 5. Vim shortkeys
 Can be found [here](shortkeys.md)
