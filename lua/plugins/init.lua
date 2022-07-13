@@ -29,7 +29,7 @@ return require('packer').startup(function()
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-cmdline'
     use 'saadparwaiz1/cmp_luasnip'
-
+    use 'ray-x/lsp_signature.nvim'
     --code formatting
     use 'nvim-lua/plenary.nvim'
     use 'jose-elias-alvarez/null-ls.nvim'
