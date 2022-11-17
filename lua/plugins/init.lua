@@ -5,14 +5,27 @@ return require('packer').startup(function()
     -- use 'nvim-treesitter/nvim-treesitter'
     use 'tanvirtin/monokai.nvim'
 
+    use({
+        "goolord/alpha-nvim",
+        requires = { "kyazdani42/nvim-web-devicons" },
+        config = function()
+            require("alpha").setup(require("alpha.themes.startify").config)
+        end,
+    })
+
+
+
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+
+
+
     use {
-        'kyazdani42/nvim-tree.lua',
+        'nvim-tree/nvim-tree.lua',
         requires = {
-            'kyazdani42/nvim-web-devicons', -- optional, for file icon
+            'nvim-tree/nvim-web-devicons', -- optional, for file icon
         },
         config = function() require 'nvim-tree'.setup {} end
     }
@@ -51,12 +64,5 @@ return require('packer').startup(function()
             require('Comment').setup()
         end
     }
-    use({
-        "goolord/alpha-nvim",
-        requires = { "kyazdani42/nvim-web-devicons" },
-        config = function()
-            require("alpha").setup(require("alpha.themes.startify").config)
-        end,
-    })
 
 end)
