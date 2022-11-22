@@ -37,7 +37,6 @@ nmap('<leader>f', '<cmd>:Telescope find_files<cr>')
 nmap('<leader>r', '<cmd>:Telescope live_grep<cr>')
 
 
-
 nmap('<C-b>','<cmd>:NvimTreeToggle<cr>')
 nmap('<C-a>', '<cmd>:ToggleTerm<cr>')
 imap('<C-a>', '<cmd>:ToggleTerm<cr>')
