@@ -37,13 +37,11 @@ brew install node
 
 Then in nvim type the following command to choose specific language server to install:
 ```
-:LspInstallInfo
+:Mason
 ```
-select the language support you want and install it by typing 'i'. 
-Used so far:
-- Pyright for Python
-- clangd for C,C++
-- tsserver for javascript
+select the language support you want and install. 
+Pre-installed server for different languages and formatters are in ./lua/lsp/mason.lua
+
 
 ### 2.1 Code formatting plugin
 We are using null-ls plugin. This may need to install additionnal code formater, have a look [here](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) .
