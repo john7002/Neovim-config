@@ -43,10 +43,8 @@ select the language support you want and install.
 Pre-installed server for different languages and formatters are in ./lua/lsp/mason.lua
 
 
-### 2.1 Code formatting plugin
-We are using null-ls plugin. This may need to install additionnal code formater, have a look [here](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) .
 
-### 2.2 Telescope
+### 2.1 Telescope
 Telescope needs ripgrep to find pattern in files. 
 
 Installation in Ubuntu:
@@ -89,5 +87,15 @@ Font Icons are needed to display text correctly.
 Install [Hack Nerd-Fonts](https://www.nerdfonts.com/font-downloads)
 In Ubuntu terminal: Preferences -> Unnamed ->  custom fonts ("Hack Nerd Font Mono Regular)
 
-## 5. Vim shortkeys
+## 5 tmux
+Install tmux via brew or apt. Copy the .tmux.conf file in home directory.
+Install TPM plugin manager:
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+you may need to launch the plugin install installation via Prefix-I (Ctrl-W I)
+
+
+## 6. Vim shortkeys
 Can be found [here](shortkeys.md)
