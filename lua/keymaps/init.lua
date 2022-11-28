@@ -18,10 +18,10 @@ end
 
 vim.g.mapleader = ' '
 
-nmap('<C-Left>', '<cmd>:vertical resize +3<cr>')
-nmap('<C-Right>', '<cmd>:vertical resize -3<cr>')
-nmap('<C-Down>', '<cmd>:horizontal resize +3<cr>')
-nmap('<C-Up>', '<cmd>:horizontal resize +3<cr>')
+-- nmap('<C-Left>', '<cmd>:vertical resize +3<cr>')
+-- nmap('<C-Right>', '<cmd>:vertical resize -3<cr>')
+-- nmap('<C-Down>', '<cmd>:horizontal resize +3<cr>')
+-- nmap('<C-Up>', '<cmd>:horizontal resize +3<cr>')
 
 
 -- reselect visual block after indent/outdent
@@ -53,6 +53,6 @@ nmap('gt', ':lua vim.lsp.buf.type_definition()<cr>')
 --nmap('<leader>af', ':lua vim.lsp.buf.code_action()<cr>')
 --nmap('<leader>rn', ':lua vim.lsp.buf.rename()<cr>')
 
-nmap('<C-j>','<cmd>:bnext<cr>')
-nmap('<C-k>','<cmd>:bprev<cr>')
+nmap('<C-Right>','<cmd>:bnext<cr>')
+nmap('<C-Left>','<cmd>:bprev<cr>')
 
