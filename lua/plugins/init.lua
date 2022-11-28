@@ -28,13 +28,18 @@ return require("packer").startup(function()
             require("nvim-tree").setup({})
         end,
     })
-    use({
-        "akinsho/toggleterm.nvim",
-        tag = "v1.*",
-        config = function()
-            require("toggleterm").setup()
-        end,
-    })
+    -- use({
+    --     "akinsho/toggleterm.nvim",
+    --     tag = "v1.*",
+    --     config = function()
+    --         require("toggleterm").setup()
+    --     end,
+    -- })
+    --
+
+    -- tmux & split window navigation
+    use("christoomey/vim-tmux-navigator")
+
 
     -- managing lsp servers
     use("williamboman/mason.nvim")

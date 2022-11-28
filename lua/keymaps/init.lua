@@ -38,8 +38,8 @@ nmap('<leader>r', '<cmd>:Telescope live_grep<cr>')
 
 
 nmap('<C-b>','<cmd>:NvimTreeToggle<cr>')
-nmap('<C-a>', '<cmd>:ToggleTerm<cr>')
-imap('<C-a>', '<cmd>:ToggleTerm<cr>')
+-- nmap('<C-a>', '<cmd>:ToggleTerm<cr>')
+-- imap('<C-a>', '<cmd>:ToggleTerm<cr>')
 
 nmap('gd', ':lua vim.lsp.buf.definition()<cr>')
 nmap('gD', ':lua vim.lsp.buf.declaration()<cr>')
