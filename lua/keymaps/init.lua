@@ -53,6 +53,6 @@ nmap('gt', ':lua vim.lsp.buf.type_definition()<cr>')
 --nmap('<leader>af', ':lua vim.lsp.buf.code_action()<cr>')
 --nmap('<leader>rn', ':lua vim.lsp.buf.rename()<cr>')
 
-nmap('<C-Right>','<cmd>:bnext<cr>')
-nmap('<C-Left>','<cmd>:bprev<cr>')
+nmap('<C-,>','<cmd>:bnext<cr>')
+nmap('<C-;>','<cmd>:bprev<cr>')
 
