@@ -24,6 +24,11 @@ vim.g.mapleader = ' '
 -- nmap('<C-Up>', '<cmd>:horizontal resize +3<cr>')
 
 
+
+
+
+
+
 -- reselect visual block after indent/outdent
 
 vmap('<', '<gv')
@@ -36,6 +41,9 @@ vmap('u','<Nop>')
 nmap('<leader>f', '<cmd>:Telescope find_files<cr>')
 nmap('<leader>r', '<cmd>:Telescope live_grep<cr>')
 
+
+nmap('<C-Right>','<cmd>:bnext<cr>')
+nmap('<C-Left>','<cmd>:bprev<cr>')
 
 nmap('<C-b>','<cmd>:NvimTreeToggle<cr>')
 -- nmap('<C-a>', '<cmd>:ToggleTerm<cr>')
@@ -53,6 +61,4 @@ nmap('gt', ':lua vim.lsp.buf.type_definition()<cr>')
 --nmap('<leader>af', ':lua vim.lsp.buf.code_action()<cr>')
 --nmap('<leader>rn', ':lua vim.lsp.buf.rename()<cr>')
 
-nmap('<C-,>','<cmd>:bnext<cr>')
-nmap('<C-;>','<cmd>:bprev<cr>')
 
